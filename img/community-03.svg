@@ -1,0 +1,24 @@
+<svg width="216" height="216" viewBox="0 0 216 216" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_226_3754" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="216" height="216">
+<circle cx="108" cy="108" r="108" fill="#8D8D8D"/>
+</mask>
+<g mask="url(#mask0_226_3754)">
+<rect x="-27" y="28.35" width="270" height="214.65" rx="20" fill="url(#paint0_radial_226_3754)"/>
+<ellipse cx="108" cy="31.05" rx="74.25" ry="13.5" fill="url(#paint1_radial_226_3754)"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_226_3754" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(153.9 62.694) rotate(130.091) scale(182.376 189.094)">
+<stop stop-color="#F5FCFE"/>
+<stop offset="0.410841" stop-color="#6841E3"/>
+<stop offset="0.617422" stop-color="#7954EF"/>
+<stop offset="1" stop-color="#845FFA"/>
+</radialGradient>
+<radialGradient id="paint1_radial_226_3754" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(142.341 44.55) rotate(180) scale(106.734 40.8147)">
+<stop stop-color="#F8F5FE"/>
+<stop offset="0.240159" stop-color="#ECEAFD"/>
+<stop offset="0.394269" stop-color="#9F9DE8"/>
+<stop offset="0.683004" stop-color="#B6A4F2"/>
+<stop offset="1" stop-color="white"/>
+</radialGradient>
+</defs>
+</svg>
