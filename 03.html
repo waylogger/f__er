@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Депозиты</title>
+  <meta name="description" content="">
+  <meta name="theme-color" content="#845FFA">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#845FFA">
+  <meta name="msapplication-navbutton-color" content="#845FFA">
+  <meta name="msapplication-TileColor" content="#845FFA">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="mask-icon" href="img/favicon/favicon-32x32.png" color="#845FFA">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="fonts/font.css">
+  <script src="js/click.js"></script>
+  <link rel="preload" href="fonts/Montserrat-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Montserrat-Medium.woff2" as="font" type="font/woff2" crossorigin>
+</head>
+
+<body onclick="removeLanguage(event)">
+  <header class="header">
+    <div class="container">
+      <div class="header-top__inner">
+        <div class="header-top__logo">
+          <a href="#"><img class="header-top__logo-img" src="img/logo.png"></a>
+        </div>
+        <div class="header-main__right nav-menu">
+          <div class="header-main__right-item header-main__right-item--mobile nav-item">
+            <a class="nav-link" href="index.html">Заработать</a>
+          </div>
+          <div class="header-main__right-item header-main__right-item--mobile nav-item">
+            <a class="nav-link" href="01.html">Занять</a>
+          </div>
+          <div class="header-main__right-item header-main__right-item--mobile nav-item menu-active">
+            <a class="nav-link" href="02.html">Обменять</a>
+          </div>
+          <div class="header-main__right-item header-main__right-item--mobile nav-item">
+            <a class="nav-link" href="03.html">Голосовать</a>
+          </div>
+          <div class="header-main__right-item header-main__right-item--mobile nav-item">
+            <a class="nav-link" href="index.html">FAQ</a>
+          </div>
+          <div class="header-main__right-item header-main__right-item--mobile nav-item menu-active">
+            <a class="nav-link" href="04.html">Академия</a>
+          </div>
+          <div class="hero__btn--mobile">
+            <a href="#" target="_blank" class="btn  btn--gradient btn--w100" rel="noopener">Начать использовать</a>
+          </div>
+        </div>
+        <div class="header-top__cta">
+          <div class="hero__lang" onclick="toggleLanguage(event)" id="hero__lang_id">
+            <span class="hero__lang-current" onclick="selectLanguage(event)">RU</span>
+            <span class="hero__lang-option" onclick="selectLanguage(event)">EN</span>
+          </div>
+          <div class="hero__btn">
+            <a href="#" target="_blank" class="btn  btn--gradient btn--w100" rel="noopener">Начать использовать</a>
+          </div>
+        </div>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="container">
+      <div class="hero__inner">
+        <div class="hero__inner-text">
+          <h1 class="hero__title">Депозиты</h1>
+          <p class="hero__subtitle">20: депозит в стейблокине, не колебющемся по курсу</p>
+          <div class="button">
+            <a href="#" target="_blank" class="btn  btn--gradient-simple btn--w100" rel="noopener">Открыть депозит</a>
+          </div>
+        </div>
+        <div class="hero__inner-img">
+          <img class="hero__loan-img" src="img/hero-loan.png" alt="">
+        </div>
+      </div>
+    </div>
+    <svg viewBox="0 0 120 24" class="hero__waves">
+      <defs>
+        <path id="wave" d="M0 28C30 28 34.5 19.5 59 19.5C82 19.5 90 28 120 28C150 28 156 19.5 179.5 19.5C201 19.5 210 28 240 28V0H0V28Z" />
+      </defs>
+      <use id="wave4" class="wave" xlink:href="#wave" x="0" y="4" />
+      <use id="wave3" class="wave" xlink:href="#wave" x="0" y="2" />
+      <use id="wave1" class="wave" xlink:href="#wave" x="0" y="-2" />
+    </svg>
+
+    
+    <svg viewBox="-855 -50 1610 124" id="deposit-blob" width="1200" height="600" xmlns="http://www.w3.org/2000/svg" filter="url(#goo)">
+      <defs>
+        <filter id="goo">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+          <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+        </filter>
+        <path id="Circle1" d="M110.407 640.593C-46.6105 618.816 -112.927 435.464 -147.788 266.312C-178.144 119.019 -175.121 -69.04 -48.5594 -130.75C61.1022 -184.22 101.892 20.8975 198.139 97.6413C332.171 204.514 604.259 186.462 575.155 366.578C541.309 576.046 302.274 667.203 110.407 640.593Z" />
+      </defs>
+      <use id="Circle1" xlink:href="#Circle1" x="0" y="4" />
+      <circle id="Circle2"></circle>
+      <circle id="Circle3"></circle>
+    </svg>
+  </section>
+
+  <section class="freeze">
+    <div class="container">
+      <h2 class="section-title">Мы заморозили 100 000 $</h2>
+      <div class="loan__blocks">
+          <div class="loan__block-img"><img src="img/freeze.png" alt=""></div>
+          <div class="info--freeze">Монет выпущенно в системе: <span>1 678</span></div>          
+          <p class="advantages__block-subtitle">Для создания стабильной моенты мы заморозили в сети Эфера 100 000$, которые выступают гарантом стабильной стоимости монеты</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="loan__offer">
+    <div class="container">
+    <div class="loan__offer__inner">
+      <h2 class="section-title">Обменяй нашу монету</h2>
+      <div class="loan__offer__blocks loan__offer__use">
+        <div class="loan__offer__block"><img src="img/btc.svg" alt=""></div>
+        <div class="loan__offer__block"><img src="img/btc.svg" alt=""></div>
+        <div class="loan__offer__block"><img src="img/btc.svg" alt=""></div>
+      </div>
+      <p class="advantages__block-subtitle">Легко обменяй <a href="#"><b>нашу монету</b></a> на другие, на биржх, в листинг которых мы включены</p>
+    </div>
+    </div>
+  </section>
+
+
+  <section class="faq">
+    <div class="container">
+      <h2 class="section-title">FAQ по займам</h2>
+      <div class="faq__question__box">
+        <div class="faq__question">
+          <div class="section-subtitle">Как работают займы в нашем стейбкойне?</div>
+          <div class="faq__question-answer">Система сама настроит транзакцияю, просто соверашайте клики по запросу займа и выберете систему кошелька удобную вам</div>
+        </div>
+        <div class="faq__question">
+          <div class="section-subtitle">Как я смогу вернуть займ?</div>
+          <div class="faq__question-answer">Система сама настроит транзакцияю, просто соверашайте клики по запросу займа и выберете систему кошелька удобную вам</div>
+        </div>
+        <div class="faq__question">
+          <div class="section-subtitle">Каков ваш процент по займам?</div>
+          <div class="faq__question-answer">Система сама настроит транзакцияю, просто соверашайте клики по запросу займа и выберете систему кошелька удобную вам</div>
+        </div>
+        <div class="faq__question">
+          <div class="section-subtitle">Как рассчитать займ?</div>
+          <div class="faq__question-answer">Система сама настроит транзакцияю, просто соверашайте клики по запросу займа и выберете систему кошелька удобную вам</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer footer-faq">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__inner-social-title">Подписывайся на наши соц-сети и рассылку</div>
+        <div class="footer__inner-social-box">
+          <div class="footer__inner-social"><svg class="icon">
+              <use xlink:href="img/sprite.svg#facebook"></use>
+            </svg></div>
+          <div class="footer__inner-social"><svg class="icon">
+              <use xlink:href="img/sprite.svg#twitter"></use>
+            </svg></div>
+          <div class="footer__inner-social"><svg class="icon">
+              <use xlink:href="img/sprite.svg#instagram"></use>
+            </svg></div>
+          <div class="footer__inner-social"><svg class="icon">
+              <use xlink:href="img/sprite.svg#youtube"></use>
+            </svg></div>
+          <div class="footer__inner-social"><svg class="icon">
+              <use xlink:href="img/sprite.svg#telegram"></use>
+            </svg></div>
+          <div class="footer__inner-social"><svg class="icon">
+              <use xlink:href="img/sprite.svg#vk"></use>
+            </svg></div>
+        </div>
+        <div class="footer__inner-button">
+          <a href="#" target="_blank" class="btn  btn--gradient btn--w100" rel="noopener">Свяжитесь с нами</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
