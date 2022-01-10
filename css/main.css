@@ -606,6 +606,9 @@ svg.currencies__waves {
   padding: 25px 20px 30px 20px;
   z-index: 2;
   border-radius: 20px;
+  opacity: 0;
+  transition: opacity 1500ms;
+
 }
 .currencies__item:nth-child(1),
 .currencies__item:nth-child(5) {
@@ -1224,6 +1227,7 @@ svg.currencies__waves {
   .currencies__inner-list {
     flex-direction: row;
     overflow-y: scroll;
+    scroll-behavior: smooth;
   }
   .currencies__item:nth-child(1),
   .currencies__item:nth-child(5),
@@ -1231,6 +1235,7 @@ svg.currencies__waves {
   .currencies__item:nth-child(4),
   .currencies__item:nth-child(3) {
     margin: 0 20px 0 20px;
+    opacity: 1;
     transition: 0.4s;
   }
 
@@ -1266,3 +1271,28 @@ svg.currencies__waves {
     transform: scale(0.9);
   }
 }
+
+
+
+.rs-border {
+  border: none !important;
+}
+
+#slider {
+  top: 98px;
+  left: 98px;
+}
+.rs-control .rs-range-color {
+  background-color: transparent;
+  border: none;
+}
+.rs-control .rs-path-color {
+  background-color: transparent;
+}
+.rs-control .rs-handle {
+  background-color: red;
+}
+.rs-control .rs-bg-color {
+  background-color: transparent;
+}
+
